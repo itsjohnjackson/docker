@@ -3,7 +3,7 @@
 Uploader taken from https://gist.github.com/touilleMan/eb02ea40b93e52604938
 
 PLEASE CHANGE THE PATH AT END
-'''
+'''shell
 function pythonhttp() {
     echo -n "Enter Username: " && read username
     echo -n "Enter Password: " && read password
