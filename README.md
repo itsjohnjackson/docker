@@ -9,4 +9,4 @@ https://github.com/smarticu5/
 Also special thanks to the following:
 https://blog.ropnop.com/docker-for-pentesters/
 
-My biggest contribution is the httpserverbasic which integrates basic auth to the original httpserver hosting using nginx. Great for that added bit of security when on-site.
+My biggest contribution is the pythonhttp which integrates an nginx reverse proxy to the HTTP uploader https://github.com/touilleMan wrote. This uses SSL on 443 and unencrypted over port 80. Also locked behind user set username and password.
