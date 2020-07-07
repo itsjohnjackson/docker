@@ -6,4 +6,5 @@ COPY default.conf /etc/nginx/conf.d/
 COPY myapp /etc/nginx/sites-available/
 COPY python-uploader.py /home/
 COPY start.sh /
+RUN chmod +x /start.sh
 ENTRYPOINT [ "/start.sh" ]
